@@ -1,0 +1,33 @@
+.hotels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.list__items {
+  border: 1px solid rgb(64, 16, 135);
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  gap: 5px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.list__items img {
+  width: 200px;
+}
+
+.list__items h3 {
+  color: brown;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .hotels {
+    justify-content: center;
+  }
+}
